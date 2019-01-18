@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+	<page id="1044">
+		<t id="101">Swap pilots</t>
+		<t id="102">Select ship</t>
+		<t id="103">One of the ships must have a free slot</t>
+		<t id="104">More...</t>
+		<t id="105">Back</t>
+		<t id="106">Pilots swapped</t>
+	</page>
+</language>
