@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<content id="SwapPilots" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" version="001" date="2019-18-01" save="0" enabled="0">
+  <text language="7"  name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="33" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="34" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="39" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="44" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="49" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="55" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="81" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="82" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="86" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+  <text language="88" name="SwapPilots" description="Swap the pilots of two ships" author="snorrewb" />
+</content>

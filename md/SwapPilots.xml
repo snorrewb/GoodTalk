@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<mdscript name="SwapPilots" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<!-- SwapPilots 0.1 lets a player swap the pilots of two craft.
+		- WIP.
+		-->
+		
+	<!-- Debug -->
+	<!-- <set_value name="$name" exact="'SwapPilots' + player.age" /> -->
+	<!-- Debug  output-->
+	<!-- <debug_text text="$name + ': SwapPilots running.'"/> -->
+	
+	<cues>
+		<!-- The SwapPilots option is put in the conversation wheel.
+		-->
+		<cue name="SwapPilotsInit" instantiate="true" namespace="this">
+			<conditions>
+				<event_cue_signalled />
+			</conditions>
+			<actions>
+				<add_player_choice text="{1044,101}" section="SwapPSelect"/>
+			</actions>
+		</cue>
+		
+		<!-- Builds and presents a list of targets for the swap.
+		-->
+		<cue name="SwapPilotsSelect" instantiate="true" namespace="this">
+			<conditions>
+				<check_all>
+					<event_conversation_next_section section="SwapPSelect" />
+				</check_all>
+			</conditions>
+			<actions>
+				<!-- Check all other docked ships -->
+				<!-- <add_player_choice text="{1044,101}" section="SwapPDo"/> -->
+				<!-- Add more pages if there are more than 5 -->
+				<add_player_choice_return text="{1043,105}"/>
+			</actions>
+		</cue>
+		
+		<!-- Swap the pilots.
+			-->
+		<cue name="SwapPilotsDo" instantiate="true" namespace="this">
+			<conditions>
+				<check_all>
+					<event_conversation_next_section section="SwapPDo" />
+				</check_all>
+			</conditions>
+			<actions>
+				<speak actor="player.computer" line="705" comment="'Installing updates.'" />
+				<!-- Your mod here -->
+				<add_player_choice text="{1044,106}" section="g_goodbye" />
+			</actions>
+		</cue>
+	</cues>
+</mdscript>
