@@ -4,3 +4,6 @@ Reassign crew using the conversation wheel in X4: Foundations
 
 ## Requirements
 None at this time.
+
+## Installation
+See the wiki.
