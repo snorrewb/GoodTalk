@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<content id="GoodTalk" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" version="001" date="2019-18-01" save="0" enabled="0">
-  <text language="7"  name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="33" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="34" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="39" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="44" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="49" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="55" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="81" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="82" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="86" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
-  <text language="88" name="GoodTalk" description="Reassign crew in their conversation wheel" author="snorrewb" />
+<content id="GoodTalk" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" version="001" date="2019-18-01" save="0" enabled="0">
+  <text language="7"  name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="33" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="34" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="39" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="44" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="49" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="55" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="81" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="82" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="86" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
+  <text language="88" name="GoodTalk" description="Reassign crew using the conversation wheel" author="snorrewb" />
 </content>
