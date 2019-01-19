@@ -1,2 +1,2 @@
-# SwapPilots
-Lets the player easily swap the captains of two craft in X4: Foundations
+# GoodTalk
+Reassign crew using the conversation wheel in X4: Foundations
