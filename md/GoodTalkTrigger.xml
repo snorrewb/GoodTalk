@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<mdscript name="SwapPilotsTrigger" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+<mdscript name="GoodTalkTrigger" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
 	<!-- Debug -->
-	<!-- <set_value name="$name" exact="'SwapPilotsTrigger' + player.age" /> -->
+	<!-- <set_value name="$name" exact="'GoodTalkTrigger' + player.age" /> -->
 	<!-- Debug  output-->
-	<!-- <debug_text text="$name + ': SwapPilotsTrigger running.'"/> -->
+	<!-- <debug_text text="$name + ': GoodTalkTrigger running.'"/> -->
 	
 	<cues>
-		<!-- Checks whether a started conversation matches SwapPilots conditions, and launches it.
+		<!-- Checks whether a started conversation matches GoodTalk conditions, and launches it.
 		-->
-		<cue name="SwapPilotsTriggerCue" instantiate="true" namespace="this">
+		<cue name="GoodTalkTriggerCue" instantiate="true" namespace="this">
 			<conditions>
 				<event_conversation_started conversation="default" />
 				<check_all>
@@ -19,10 +19,10 @@
 			</conditions>
 			<actions>
 				<do_if value="event.object">
-					<signal_cue_instantly cue="md.SwapPilots.SwapPilotsInit" param="event.object" />
+					<signal_cue_instantly cue="md.GoodTalk.GoodTalkInit" param="event.object" />
 				</do_if>
 				<do_else>
-					<cancel_cue cue="SwapPilotsTriggerCue" />
+					<cancel_cue cue="GoodTalkTriggerCue" />
 				</do_else>
 			</actions>
 		</cue>
